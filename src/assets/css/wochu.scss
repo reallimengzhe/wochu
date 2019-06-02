@@ -1,0 +1,144 @@
+// 颜色变量
+$green: #428b0e; // 主题色
+$orange: #ff5918; // 辅助色
+$background: #f4f4f4;
+$shadow: #e5e5e5;
+$gray: #999;
+$font: #666;
+$black: #001e00;
+$opacity-btn: rgba(34, 34, 34, 0.3);
+$box-shadow: 0 0 20px rgba(34, 34, 34, 0.1);
+
+body {
+  font-size: 0.24rem;
+  color: $font;
+  font-family: PingFang SC, Helvetica Neue, Arial, sans-serif !important;
+  background: $background;
+}
+// 加入购物车 小按钮
+.add-to-cart {
+  float: right;
+  font-size: 0.52rem;
+  color: $green;
+}
+// 加入购物车 大按钮
+.add-to-cart-btn {
+  background: $orange !important;
+  border: $orange !important;
+  color: #fff;
+}
+// 隐藏无效价格
+.hidden {
+  color: #fff !important;
+}
+// 显示
+.show {
+  color: $green !important;
+}
+// 关闭按钮
+.close {
+  font-size: 0.52rem;
+  color: $opacity-btn;
+  position: absolute;
+  top: 0.24rem;
+  right: 0.24rem;
+}
+.disable {
+  background: #eee;
+  color: #ccc;
+  outline: 0;
+}
+.enable {
+  background: $green;
+  color: #fff;
+}
+// 登录注册页面
+.van-tabs__line {
+  background-color: $green;
+}
+.van-tabs--line {
+  padding-top: 1.2rem;
+  .van-tabs__wrap {
+    height: 1rem;
+  }
+}
+.van-tab {
+  line-height: 1rem;
+  span {
+    font-size: 0.24rem;
+  }
+}
+.van-hairline--top-bottom::after {
+  border: none;
+}
+// 选择地址 导航栏 颜色重置
+.van-nav-bar__text {
+  color: $font;
+}
+.van-nav-bar {
+  .van-icon {
+    color: $green;
+  }
+}
+// checkbox 的颜色
+
+.van-checkbox {
+  display: flex;
+  .van-checkbox__label {
+    flex: 1;
+  }
+}
+// 按钮的颜色
+.van-button--primary {
+  background-color: $green;
+  border: 1px solid $green;
+}
+.van-button--danger {
+  background-color: $orange;
+  border: 1px solid $orange;
+}
+
+// '开关'的颜色
+.van-switch--on {
+  background-color: $green;
+}
+// '确认''取消'的颜色
+.van-picker__cancel,
+.van-picker__confirm {
+  color: $green;
+}
+// 标签栏
+.van-tabbar {
+  background: rgba(255, 255, 255, 1);
+}
+// 下拉刷新
+.van-pull-refresh {
+  overflow: unset;
+  background: #fff;
+}
+// Tab 标签页 用于子分类
+.van-tab {
+  min-width: unset;
+  padding: 0 0.2rem;
+}
+.van-tab--active {
+  color: $green;
+}
+// 确认弹框
+.van-dialog__confirm,
+.van-dialog__confirm:active {
+  color: $green;
+}
+// 滑动删除
+.van-swipe-cell__right {
+  color: #fff;
+  font-size: 0.2rem;
+  width: 65px;
+  text-align: center;
+  line-height: 2rem;
+  background-color: #f44;
+}
+// 结算按钮
+.van-submit-bar__price {
+  color: $orange;
+}
